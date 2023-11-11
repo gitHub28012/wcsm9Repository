@@ -15,11 +15,11 @@ public class ReadDataFromExcel {
 	public static void main(String[] args) throws EncryptedDocumentException, IOException {
 		
 		//Read the data from TestData.xlsx file
-		FileInputStream fis = new FileInputStream("./src/main/resources/TestData.xlsx");
+		FileInputStream fis = new FileInputStream("./src/main/resources/ActiTimeTestData.xlsx");
 	    Workbook wb = WorkbookFactory.create(fis);
-	    Sheet sheet = wb.getSheet("IPL");
+	    Sheet sheet = wb.getSheet("validcreds");
 	    Row row = sheet.getRow(1);
-	    Cell cell = row.getCell(1);
+	    Cell cell = row.getCell(0);
 	    
 	    String data = cell.getStringCellValue();
 	    

@@ -16,13 +16,13 @@ public class ReadMultipleDataFromExcel {
 		
 		// Read multiple Data from TestData.xlsx
 		
-		for(int i=1;i<=10;i++)
+		for(int i=1;i<=7;i++)
 		{  
-			FileInputStream fis = new FileInputStream("./src/main/resources/TestData.xlsx");
+			FileInputStream fis = new FileInputStream("./src/main/resources/ActiTimeTestData.xlsx");
 			Workbook wb = WorkbookFactory.create(fis);
-			Sheet sheet = wb.getSheet("IPL");
+			Sheet sheet = wb.getSheet("invalidcreds");
 			Row row = sheet.getRow(i);
-			Cell cell = row.getCell(1);
+			Cell cell = row.getCell(0);
 	    
 			String data = cell.getStringCellValue();
 			Thread.sleep(2000);
