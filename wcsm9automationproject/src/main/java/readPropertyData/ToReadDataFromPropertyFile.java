@@ -13,7 +13,7 @@ public class ToReadDataFromPropertyFile {
 		Properties prop = new Properties();
 		prop.load(fis);
 		
-		String data = prop.getProperty("username");
+		String data = prop.getProperty("Url");
 		System.out.println(data);
 	}
 
