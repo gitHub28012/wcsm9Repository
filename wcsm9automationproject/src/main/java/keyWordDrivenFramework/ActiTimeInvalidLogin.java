@@ -19,22 +19,16 @@ public class ActiTimeInvalidLogin extends BaseTest {
 		
 		for(int i=1;i<=rc;i++)
 		{	
-		String invalidUsn = flib.readDataFromExcel("./src/main/resources/ActiTimeTestData.xlsx","invalidcreds",i,0);
-		String invalidPass = flib.readDataFromExcel("./src/main/resources/ActiTimeTestData.xlsx","invalidcreds",i,1);
-		
-	
 		        //identify username Text box
 				WebElement usnTB = driver.findElement(By.name("username"));
-				usnTB.sendKeys(invalidUsn);
+				usnTB.sendKeys(flib.readDataFromExcel(EXCEL_PATH,INVALIDCREEDS_SHEET,i,0));
 				//identify password Text Box
 				WebElement passTB = driver.findElement(By.name("pwd"));
-				passTB.sendKeys(invalidPass);
+				passTB.sendKeys(flib.readDataFromExcel(EXCEL_PATH,INVALIDCREEDS_SHEET,i,1));
 				//identify login Button and click
 				driver.findElement(By.id("loginButton")).click();
 				Thread.sleep(2000);
-				driver.findElement(By.name("username")).clear();
-				
-				
+				driver.findElement(By.name("username")).clear();				
 		}	
 		bt.closeBrowser();
 	}

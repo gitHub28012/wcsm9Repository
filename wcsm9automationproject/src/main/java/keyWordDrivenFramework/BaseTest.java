@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class BaseTest extends Flib {
+public class BaseTest extends Flib implements IautoConstant {
 	
 	static WebDriver driver;
 	
@@ -16,8 +16,8 @@ public class BaseTest extends Flib {
 	{
 		Flib flib = new Flib();// read the data from property file .
 		
-		String browserValue = flib.readDataFromProperty("./src/main/resources/config.properties","Browser");
-		String url = flib.readDataFromProperty("./src/main/resources/config.properties","Url");
+		String browserValue = flib.readDataFromProperty(PROP_PATH,"Browser");
+		String url = flib.readDataFromProperty(PROP_PATH,"Url");
 		
 		
 		if(browserValue.equalsIgnoreCase("chrome"))

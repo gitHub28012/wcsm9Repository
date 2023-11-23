@@ -20,10 +20,10 @@ public class ActiTimeValidLogin extends BaseTest {
 		
 		//identify username Text box
 		WebElement usnTB = driver.findElement(By.name("username"));
-		usnTB.sendKeys(flib.readDataFromProperty("./src/main/resources/config.properties","Username"));
+		usnTB.sendKeys(flib.readDataFromProperty(PROP_PATH,"Username"));
 		//identify password Text Box
 		WebElement passTB = driver.findElement(By.name("pwd"));
-		passTB.sendKeys(flib.readDataFromProperty("./src/main/resources/config.properties","Password"));
+		passTB.sendKeys(flib.readDataFromProperty(PROP_PATH,"Password"));
 		//identify login Button and click
 		driver.findElement(By.id("loginButton")).click();
 		
