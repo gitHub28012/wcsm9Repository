@@ -3,8 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+	  <class name="testNGPackage.Remo"/>
       <class name="testNGPackage.Demo"/>
-      <class name="testNGPackage.Remo"/>
       <class name="testNGPackage.Sumo"/>
     </classes>
   </test> <!-- Test -->
