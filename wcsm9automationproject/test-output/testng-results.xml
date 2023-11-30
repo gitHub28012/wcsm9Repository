@@ -1,39 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-29T12:54:18 IST" name="Suite" finished-at="2023-11-29T12:54:31 IST" duration-ms="13145">
+  <suite started-at="2023-11-30T12:40:57 IST" name="Suite" finished-at="2023-11-30T12:41:19 IST" duration-ms="21672">
     <groups>
     </groups>
-    <test started-at="2023-11-29T12:54:18 IST" name="Test" finished-at="2023-11-29T12:54:31 IST" duration-ms="13145">
-      <class name="testNGExecutionPackage.SelectTest">
-        <test-method signature="selectTestMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNGExecutionPackage.SelectTest@71a8adcf]" started-at="2023-11-29T12:54:18 IST" name="selectTestMethod" finished-at="2023-11-29T12:54:31 IST" duration-ms="13095" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[http://desktop-k0cq021/login.do]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[manager]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2023-11-30T12:40:57 IST" name="Test2" finished-at="2023-11-30T12:41:19 IST" duration-ms="21516">
+      <class name="testNGExecutionPackage.JavaTest">
+        <test-method signature="java_method()[pri:0, instance:testNGExecutionPackage.JavaTest@7526515b]" started-at="2023-11-30T12:41:08 IST" name="java_method" finished-at="2023-11-30T12:41:19 IST" duration-ms="10822" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectTestMethod -->
-      </class> <!-- testNGExecutionPackage.SelectTest -->
-    </test> <!-- Test -->
+        </test-method> <!-- java_method -->
+      </class> <!-- testNGExecutionPackage.JavaTest -->
+      <class name="testNGExecutionPackage.SeleniumTest">
+        <test-method signature="selenium_method()[pri:0, instance:testNGExecutionPackage.SeleniumTest@644baf4a]" started-at="2023-11-30T12:40:57 IST" name="selenium_method" finished-at="2023-11-30T12:41:08 IST" duration-ms="10623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selenium_method -->
+      </class> <!-- testNGExecutionPackage.SeleniumTest -->
+    </test> <!-- Test2 -->
+    <test started-at="2023-11-30T12:40:57 IST" name="Test1" finished-at="2023-11-30T12:41:19 IST" duration-ms="21671">
+      <class name="testNGExecutionPackage.JavaTest">
+        <test-method signature="java_method()[pri:0, instance:testNGExecutionPackage.JavaTest@12aba8be]" started-at="2023-11-30T12:40:57 IST" name="java_method" finished-at="2023-11-30T12:41:08 IST" duration-ms="10988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- java_method -->
+      </class> <!-- testNGExecutionPackage.JavaTest -->
+      <class name="testNGExecutionPackage.SeleniumTest">
+        <test-method signature="selenium_method()[pri:0, instance:testNGExecutionPackage.SeleniumTest@4b0d79fc]" started-at="2023-11-30T12:41:08 IST" name="selenium_method" finished-at="2023-11-30T12:41:19 IST" duration-ms="10636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selenium_method -->
+      </class> <!-- testNGExecutionPackage.SeleniumTest -->
+    </test> <!-- Test1 -->
   </suite> <!-- Suite -->
 </testng-results>

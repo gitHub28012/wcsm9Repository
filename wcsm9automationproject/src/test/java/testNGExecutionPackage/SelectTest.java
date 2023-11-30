@@ -8,6 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Reporter;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -17,7 +18,7 @@ public class SelectTest {
 	
   @Parameters({"Browser","Url","Username","Password"})
   @Test
-  public void selectTestMethod(String browserValue,String url,String usn,String pass) throws InterruptedException 
+  public void selectTestMethod( String browserValue,String url,String usn,String pass) throws InterruptedException 
   {
 	  if(browserValue.equalsIgnoreCase("chrome"))
 	  {

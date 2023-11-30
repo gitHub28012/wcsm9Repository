@@ -5,7 +5,7 @@
     <classes>
       <class name="testNGExecutionPackage.SelectTest">
         <methods>
-          <include name="selectTestMethod"/>
+          <include name="selectTestMethod" invocation-numbers="0"/>
         </methods>
       </class> <!-- testNGExecutionPackage.SelectTest -->
     </classes>
