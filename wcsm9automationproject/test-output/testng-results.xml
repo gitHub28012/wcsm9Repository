@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-30T12:40:57 IST" name="Suite" finished-at="2023-11-30T12:41:19 IST" duration-ms="21672">
+  <suite started-at="2023-12-01T12:24:23 IST" name="Default suite" finished-at="2023-12-01T12:24:44 IST" duration-ms="21444">
     <groups>
     </groups>
-    <test started-at="2023-11-30T12:40:57 IST" name="Test2" finished-at="2023-11-30T12:41:19 IST" duration-ms="21516">
-      <class name="testNGExecutionPackage.JavaTest">
-        <test-method signature="java_method()[pri:0, instance:testNGExecutionPackage.JavaTest@7526515b]" started-at="2023-11-30T12:41:08 IST" name="java_method" finished-at="2023-11-30T12:41:19 IST" duration-ms="10822" status="PASS">
+    <test started-at="2023-12-01T12:24:23 IST" name="Default test" finished-at="2023-12-01T12:24:44 IST" duration-ms="21444">
+      <class name="testNGAnnotations_Flags.GoogleSearchTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testNGAnnotations_Flags.GoogleSearchTest@27f981c6]" started-at="2023-12-01T12:24:23 IST" name="setUp" finished-at="2023-12-01T12:24:27 IST" duration-ms="4313" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- java_method -->
-      </class> <!-- testNGExecutionPackage.JavaTest -->
-      <class name="testNGExecutionPackage.SeleniumTest">
-        <test-method signature="selenium_method()[pri:0, instance:testNGExecutionPackage.SeleniumTest@644baf4a]" started-at="2023-11-30T12:40:57 IST" name="selenium_method" finished-at="2023-11-30T12:41:08 IST" duration-ms="10623" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="search_Java()[pri:0, instance:testNGAnnotations_Flags.GoogleSearchTest@27f981c6]" started-at="2023-12-01T12:24:27 IST" name="search_Java" finished-at="2023-12-01T12:24:34 IST" duration-ms="6656" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selenium_method -->
-      </class> <!-- testNGExecutionPackage.SeleniumTest -->
-    </test> <!-- Test2 -->
-    <test started-at="2023-11-30T12:40:57 IST" name="Test1" finished-at="2023-11-30T12:41:19 IST" duration-ms="21671">
-      <class name="testNGExecutionPackage.JavaTest">
-        <test-method signature="java_method()[pri:0, instance:testNGExecutionPackage.JavaTest@12aba8be]" started-at="2023-11-30T12:40:57 IST" name="java_method" finished-at="2023-11-30T12:41:08 IST" duration-ms="10988" status="PASS">
+        </test-method> <!-- search_Java -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGAnnotations_Flags.GoogleSearchTest@27f981c6]" started-at="2023-12-01T12:24:34 IST" name="tearDown" finished-at="2023-12-01T12:24:34 IST" duration-ms="143" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- java_method -->
-      </class> <!-- testNGExecutionPackage.JavaTest -->
-      <class name="testNGExecutionPackage.SeleniumTest">
-        <test-method signature="selenium_method()[pri:0, instance:testNGExecutionPackage.SeleniumTest@4b0d79fc]" started-at="2023-11-30T12:41:08 IST" name="selenium_method" finished-at="2023-11-30T12:41:19 IST" duration-ms="10636" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testNGAnnotations_Flags.GoogleSearchTest@27f981c6]" started-at="2023-12-01T12:24:34 IST" name="setUp" finished-at="2023-12-01T12:24:37 IST" duration-ms="3772" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selenium_method -->
-      </class> <!-- testNGExecutionPackage.SeleniumTest -->
-    </test> <!-- Test1 -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- setUp -->
+        <test-method signature="search_Selenium()[pri:0, instance:testNGAnnotations_Flags.GoogleSearchTest@27f981c6]" started-at="2023-12-01T12:24:37 IST" name="search_Selenium" finished-at="2023-12-01T12:24:44 IST" duration-ms="6407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_Selenium -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGAnnotations_Flags.GoogleSearchTest@27f981c6]" started-at="2023-12-01T12:24:44 IST" name="tearDown" finished-at="2023-12-01T12:24:44 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testNGAnnotations_Flags.GoogleSearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
