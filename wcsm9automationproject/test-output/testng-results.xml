@@ -1,37 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Method2 For Users Page ]]>
+    </line>
+    <line>
+      <![CDATA[Method1 For Login Page]]>
+    </line>
+    <line>
+      <![CDATA[Method3 For Logout Page ]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-12-01T12:24:23 IST" name="Default suite" finished-at="2023-12-01T12:24:44 IST" duration-ms="21444">
+  <suite started-at="2023-12-02T13:00:22 IST" name="Default suite" finished-at="2023-12-02T13:00:22 IST" duration-ms="53">
     <groups>
     </groups>
-    <test started-at="2023-12-01T12:24:23 IST" name="Default test" finished-at="2023-12-01T12:24:44 IST" duration-ms="21444">
-      <class name="testNGAnnotations_Flags.GoogleSearchTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testNGAnnotations_Flags.GoogleSearchTest@27f981c6]" started-at="2023-12-01T12:24:23 IST" name="setUp" finished-at="2023-12-01T12:24:27 IST" duration-ms="4313" status="PASS">
+    <test started-at="2023-12-02T13:00:22 IST" name="Default test" finished-at="2023-12-02T13:00:22 IST" duration-ms="53">
+      <class name="testNGAnnotations_Flags.Flag5">
+        <test-method signature="createUsersMethod()[pri:0, instance:testNGAnnotations_Flags.Flag5@550dbc7a]" started-at="2023-12-02T13:00:22 IST" name="createUsersMethod" finished-at="2023-12-02T13:00:22 IST" duration-ms="8" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Method2 For Users Page ]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="search_Java()[pri:0, instance:testNGAnnotations_Flags.GoogleSearchTest@27f981c6]" started-at="2023-12-01T12:24:27 IST" name="search_Java" finished-at="2023-12-01T12:24:34 IST" duration-ms="6656" status="PASS">
+        </test-method> <!-- createUsersMethod -->
+        <test-method signature="loginMethod()[pri:0, instance:testNGAnnotations_Flags.Flag5@550dbc7a]" started-at="2023-12-02T13:00:22 IST" name="loginMethod" finished-at="2023-12-02T13:00:22 IST" duration-ms="2" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Method1 For Login Page]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- search_Java -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGAnnotations_Flags.GoogleSearchTest@27f981c6]" started-at="2023-12-01T12:24:34 IST" name="tearDown" finished-at="2023-12-01T12:24:34 IST" duration-ms="143" status="PASS">
+        </test-method> <!-- loginMethod -->
+        <test-method signature="logoutMethod()[pri:0, instance:testNGAnnotations_Flags.Flag5@550dbc7a]" started-at="2023-12-02T13:00:22 IST" name="logoutMethod" finished-at="2023-12-02T13:00:22 IST" duration-ms="1" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Method3 For Logout Page ]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testNGAnnotations_Flags.GoogleSearchTest@27f981c6]" started-at="2023-12-01T12:24:34 IST" name="setUp" finished-at="2023-12-01T12:24:37 IST" duration-ms="3772" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="search_Selenium()[pri:0, instance:testNGAnnotations_Flags.GoogleSearchTest@27f981c6]" started-at="2023-12-01T12:24:37 IST" name="search_Selenium" finished-at="2023-12-01T12:24:44 IST" duration-ms="6407" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search_Selenium -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGAnnotations_Flags.GoogleSearchTest@27f981c6]" started-at="2023-12-01T12:24:44 IST" name="tearDown" finished-at="2023-12-01T12:24:44 IST" duration-ms="117" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testNGAnnotations_Flags.GoogleSearchTest -->
+        </test-method> <!-- logoutMethod -->
+      </class> <!-- testNGAnnotations_Flags.Flag5 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
