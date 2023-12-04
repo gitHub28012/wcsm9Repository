@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGExecutionPackage.SelectTest">
+      <class name="testNGAnnotations_Flags.Flag7">
         <methods>
-          <include name="selectTestMethod" invocation-numbers="0"/>
+          <include name="createUsersMethod"/>
+          <include name="loginMethod"/>
         </methods>
-      </class> <!-- testNGExecutionPackage.SelectTest -->
+      </class> <!-- testNGAnnotations_Flags.Flag7 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
