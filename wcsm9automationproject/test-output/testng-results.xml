@@ -1,35 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Method1 For Login Page]]>
-    </line>
-    <line>
-      <![CDATA[Method3 For Logout Page ]]>
-    </line>
   </reporter-output>
-  <suite started-at="2023-12-04T12:47:37 IST" name="Default suite" finished-at="2023-12-04T12:47:37 IST" duration-ms="58">
+  <suite started-at="2023-12-05T12:23:35 IST" name="Default suite" finished-at="2023-12-05T12:23:37 IST" duration-ms="2253">
     <groups>
     </groups>
-    <test started-at="2023-12-04T12:47:37 IST" name="Default test" finished-at="2023-12-04T12:47:37 IST" duration-ms="58">
-      <class name="testNGAnnotations_Flags.Flag7">
-        <test-method signature="loginMethod()[pri:0, instance:testNGAnnotations_Flags.Flag7@729d991e]" started-at="2023-12-04T12:47:37 IST" name="loginMethod" description="Login performed!!" finished-at="2023-12-04T12:47:37 IST" duration-ms="7" status="PASS">
+    <test started-at="2023-12-05T12:23:35 IST" name="Default test" finished-at="2023-12-05T12:23:37 IST" duration-ms="2253">
+      <class name="testNGAssertations.AssertationScriptOnOrangeHRM">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testNGAssertations.AssertationScriptOnOrangeHRM@4310d43]" started-at="2023-12-05T12:23:35 IST" name="setUp" finished-at="2023-12-05T12:23:37 IST" duration-ms="1697" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Method1 For Login Page]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- loginMethod -->
-        <test-method signature="createUsersMethod()[pri:0, instance:testNGAnnotations_Flags.Flag7@729d991e]" started-at="2023-12-04T12:47:37 IST" name="createUsersMethod" description="UserCreated" finished-at="2023-12-04T12:47:37 IST" depends-on-methods="testNGAnnotations_Flags.Flag7.loginMethod" duration-ms="3" status="FAIL">
+        </test-method> <!-- setUp -->
+        <test-method signature="testMethod()[pri:0, instance:testNGAssertations.AssertationScriptOnOrangeHRM@4310d43]" started-at="2023-12-05T12:23:37 IST" name="testMethod" finished-at="2023-12-05T12:23:37 IST" duration-ms="520" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[null]]>
+              <![CDATA[expected [actiTIME] but found [actiTIME - Enter Time-Track]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
+              <![CDATA[java.lang.AssertionError: expected [actiTIME] but found [actiTIME - Enter Time-Track]
 at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.fail(Assert.java:116)
-at testNGAnnotations_Flags.Flag7.createUsersMethod(Flag7.java:16)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at testNGAssertations.AssertationScriptOnOrangeHRM.testMethod(AssertationScriptOnOrangeHRM.java:44)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -63,15 +58,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createUsersMethod -->
-        <test-method signature="logoutMethod()[pri:0, instance:testNGAnnotations_Flags.Flag7@729d991e]" started-at="2023-12-04T12:47:37 IST" name="logoutMethod" description="Logout performed!!" finished-at="2023-12-04T12:47:37 IST" depends-on-methods="testNGAnnotations_Flags.Flag7.createUsersMethod" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Method3 For Logout Page ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- logoutMethod -->
-      </class> <!-- testNGAnnotations_Flags.Flag7 -->
+        </test-method> <!-- testMethod -->
+      </class> <!-- testNGAssertations.AssertationScriptOnOrangeHRM -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

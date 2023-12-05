@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Dec 04 12:47:37 IST 2023</td>
+<td>Started on:</td><td>Tue Dec 05 12:23:35 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (58 ms)</td>
+<tr><td>Total time:</td><td>2 seconds (2253 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,11 +76,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testNGAnnotations_Flags.Flag7.createUsersMethod()'><b>createUsersMethod</b><br>Test class: testNGAnnotations_Flags.Flag7<br>Test method: UserCreated</td>
-<td><div><pre>java.lang.AssertionError: null
+<td title='testNGAssertations.AssertationScriptOnOrangeHRM.testMethod()'><b>testMethod</b><br>Test class: testNGAssertations.AssertationScriptOnOrangeHRM</td>
+<td><div><pre>java.lang.AssertionError: expected [actiTIME] but found [actiTIME - Enter Time-Track]
 	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.fail(Assert.java:116)
-	at testNGAnnotations_Flags.Flag7.createUsersMethod(Flag7.java:16)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at testNGAssertations.AssertationScriptOnOrangeHRM.testMethod(AssertationScriptOnOrangeHRM.java:44)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -109,11 +113,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1766869737", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1766869737'><pre>java.lang.AssertionError: null
+</pre></div><a href='#' onClick='toggleBox("stack-trace495051009", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace495051009'><pre>java.lang.AssertionError: expected [actiTIME] but found [actiTIME - Enter Time-Track]
 	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.fail(Assert.java:116)
-	at testNGAnnotations_Flags.Flag7.createUsersMethod(Flag7.java:16)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at testNGAssertations.AssertationScriptOnOrangeHRM.testMethod(AssertationScriptOnOrangeHRM.java:44)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -144,40 +152,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>testNGAnnotations_Flags.Flag7@729d991e</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='testNGAnnotations_Flags.Flag7.logoutMethod()'><b>logoutMethod</b><br>Test class: testNGAnnotations_Flags.Flag7<br>Test method: Logout performed!!<br/>
-<a href="#Output-947553027" onClick='toggleBox("Output-947553027", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-947553027" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-947553027">
-Method3 For Logout Page <br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>testNGAnnotations_Flags.Flag7@729d991e</td></tr>
-<tr>
-<td title='testNGAnnotations_Flags.Flag7.loginMethod()'><b>loginMethod</b><br>Test class: testNGAnnotations_Flags.Flag7<br>Test method: Login performed!!<br/>
-<a href="#Output-370475881" onClick='toggleBox("Output-370475881", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-370475881" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-370475881">
-Method1 For Login Page<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>testNGAnnotations_Flags.Flag7@729d991e</td></tr>
+<td>testNGAssertations.AssertationScriptOnOrangeHRM@4310d43</td></tr>
 </table><p>
 </body>
 </html>

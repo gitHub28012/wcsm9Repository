@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGAnnotations_Flags.Flag7">
+      <class name="testNGAssertations.AssertationScriptOnOrangeHRM">
         <methods>
-          <include name="createUsersMethod"/>
-          <include name="loginMethod"/>
+          <include name="setUp"/>
+          <include name="testMethod"/>
         </methods>
-      </class> <!-- testNGAnnotations_Flags.Flag7 -->
+      </class> <!-- testNGAssertations.AssertationScriptOnOrangeHRM -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
