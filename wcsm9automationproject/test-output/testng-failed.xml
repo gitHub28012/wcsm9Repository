@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGAssertations.AssertationScriptOnOrangeHRM">
+      <class name="listenerPackage.ValidLogin">
         <methods>
           <include name="setUp"/>
-          <include name="testMethod"/>
+          <include name="validLoginMethod"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- testNGAssertations.AssertationScriptOnOrangeHRM -->
+      </class> <!-- listenerPackage.ValidLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

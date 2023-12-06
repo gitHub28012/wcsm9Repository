@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Dec 05 12:23:35 IST 2023</td>
+<td>Started on:</td><td>Wed Dec 06 12:31:14 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>2 seconds (2253 ms)</td>
+<tr><td>Total time:</td><td>2 seconds (2008 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,15 +76,24 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testNGAssertations.AssertationScriptOnOrangeHRM.testMethod()'><b>testMethod</b><br>Test class: testNGAssertations.AssertationScriptOnOrangeHRM</td>
-<td><div><pre>java.lang.AssertionError: expected [actiTIME] but found [actiTIME - Enter Time-Track]
+<td title='listenerPackage.ValidLogin.validLoginMethod()'><b>validLoginMethod</b><br>Test class: listenerPackage.ValidLogin<br/>
+<a href="#Output-773238925" onClick='toggleBox("Output-773238925", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-773238925" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-773238925">
+onTestStart<br/>
+onTestFailure<br/>
+Method Falied ScreenShot Taken :validLoginMethod<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [actiTIME ] but found [actiTIME - Login]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 	at org.testng.Assert.assertEquals(Assert.java:132)
 	at org.testng.Assert.assertEquals(Assert.java:656)
 	at org.testng.Assert.assertEquals(Assert.java:666)
-	at testNGAssertations.AssertationScriptOnOrangeHRM.testMethod(AssertationScriptOnOrangeHRM.java:44)
+	at listenerPackage.ValidLogin.validLoginMethod(ValidLogin.java:15)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -113,15 +122,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace495051009", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace495051009'><pre>java.lang.AssertionError: expected [actiTIME] but found [actiTIME - Enter Time-Track]
+</pre></div><a href='#' onClick='toggleBox("stack-trace773238925", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace773238925'><pre>java.lang.AssertionError: expected [actiTIME ] but found [actiTIME - Login]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 	at org.testng.Assert.assertEquals(Assert.java:132)
 	at org.testng.Assert.assertEquals(Assert.java:656)
 	at org.testng.Assert.assertEquals(Assert.java:666)
-	at testNGAssertations.AssertationScriptOnOrangeHRM.testMethod(AssertationScriptOnOrangeHRM.java:44)
+	at listenerPackage.ValidLogin.validLoginMethod(ValidLogin.java:15)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -152,7 +161,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>testNGAssertations.AssertationScriptOnOrangeHRM@4310d43</td></tr>
+<td>listenerPackage.ValidLogin@1151e434</td></tr>
 </table><p>
 </body>
 </html>
