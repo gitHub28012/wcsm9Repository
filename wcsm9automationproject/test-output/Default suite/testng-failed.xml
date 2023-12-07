@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="listenerPackage.ValidLogin">
+      <class name="testNGAnnotations_Flags.ActiTimeDataProviderFlag">
         <methods>
-          <include name="setUp"/>
-          <include name="validLoginMethod"/>
-          <include name="tearDown"/>
+          <include name="invalidLoginMethod" invocation-numbers="0"/>
         </methods>
-      </class> <!-- listenerPackage.ValidLogin -->
+      </class> <!-- testNGAnnotations_Flags.ActiTimeDataProviderFlag -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

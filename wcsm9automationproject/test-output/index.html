@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Qspiders Wakad\AppData\Local\Temp\testng-eclipse-1441297349\testng-customsuite.xml</span>
+                    <span>C:\Users\Qspiders Wakad\AppData\Local\Temp\testng-eclipse-1743761507\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,10 +103,39 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="listenerPackage.ValidLogin" class="method navigator-link" hash-for-method="validLoginMethod">validLoginMethod</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testNGAnnotations_Flags.ActiTimeDataProviderFlag" class="method navigator-link" hash-for-method="invalidLoginMethod(ad_min, mana_ger)">invalidLoginMethod(ad_min, mana_ger)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testNGAnnotations_Flags.ActiTimeDataProviderFlag" class="method navigator-link" hash-for-method="invalidLoginMethod(ad123, mana123)">invalidLoginMethod(ad123, mana123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testNGAnnotations_Flags.ActiTimeDataProviderFlag" class="method navigator-link" hash-for-method="invalidLoginMethod(456min, 456ger)">invalidLoginMethod(456min, 456ger)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testNGAnnotations_Flags.ActiTimeDataProviderFlag" class="method navigator-link" hash-for-method="invalidLoginMethod(min, add)">invalidLoginMethod(min, add)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testNGAnnotations_Flags.ActiTimeDataProviderFlag" class="method navigator-link" hash-for-method="invalidLoginMethod(manager, admin)">invalidLoginMethod(manager, admin)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -121,22 +150,40 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">listenerPackage.ValidLogin</span>
+              <span class="class-name">testNGAnnotations_Flags.ActiTimeDataProviderFlag</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="validLoginMethod">
-                  </a> <!-- validLoginMethod -->
-                  <span class="method-name">validLoginMethod</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [actiTIME ] but found [actiTIME - Login]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at listenerPackage.ValidLogin.validLoginMethod(ValidLogin.java:15)
+                  <a name="invalidLoginMethod(ad_min, mana_ger)">
+                  </a> <!-- invalidLoginMethod(ad_min, mana_ger) -->
+                  <span class="method-name">invalidLoginMethod</span>
+                  <span class="parameters">(ad_min,mana_ger)</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=119.0.6045.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [34ee00763db8c54249d0a7a4497a4635, clearElement {id=D8E1C0539E25F5CA8CFF8F2A56FE8A18_element_18}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.200, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\QSPIDE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56494}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56494/devtoo..., se:cdpVersion: 119.0.6045.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (34ee00763db8c54249d0a7a4497a4635)] -&gt; name: username]
+Session ID: 34ee00763db8c54249d0a7a4497a4635
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:130)
+	at testNGAnnotations_Flags.ActiTimeDataProviderFlag.invalidLoginMethod(ActiTimeDataProviderFlag.java:29)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -171,10 +218,50 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNGAnnotations_Flags.ActiTimeDataProviderFlag</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLoginMethod(ad123, mana123)">
+                  </a> <!-- invalidLoginMethod(ad123, mana123) -->
+                  <span class="method-name">invalidLoginMethod</span>
+                  <span class="parameters">(ad123,mana123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLoginMethod(456min, 456ger)">
+                  </a> <!-- invalidLoginMethod(456min, 456ger) -->
+                  <span class="method-name">invalidLoginMethod</span>
+                  <span class="parameters">(456min,456ger)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLoginMethod(min, add)">
+                  </a> <!-- invalidLoginMethod(min, add) -->
+                  <span class="method-name">invalidLoginMethod</span>
+                  <span class="parameters">(min,add)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLoginMethod(manager, admin)">
+                  </a> <!-- invalidLoginMethod(manager, admin) -->
+                  <span class="method-name">invalidLoginMethod</span>
+                  <span class="parameters">(manager,admin)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Qspiders Wakad\AppData\Local\Temp\testng-eclipse-1441297349\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Qspiders Wakad\AppData\Local\Temp\testng-eclipse-1743761507\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -183,7 +270,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;listenerPackage.ValidLogin&quot;/&gt;
+      &lt;class name=&quot;testNGAnnotations_Flags.ActiTimeDataProviderFlag&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -223,16 +310,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'validLoginMethod')
-data.setCell(0, 2, 'listenerPackage.ValidLogin')
-data.setCell(0, 3, 31);
+data.setCell(0, 1, 'invalidLoginMethod')
+data.setCell(0, 2, 'testNGAnnotations_Flags.ActiTimeDataProviderFlag')
+data.setCell(0, 3, 4446);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'invalidLoginMethod')
+data.setCell(1, 2, 'testNGAnnotations_Flags.ActiTimeDataProviderFlag')
+data.setCell(1, 3, 3053);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'invalidLoginMethod')
+data.setCell(2, 2, 'testNGAnnotations_Flags.ActiTimeDataProviderFlag')
+data.setCell(2, 3, 2993);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'invalidLoginMethod')
+data.setCell(3, 2, 'testNGAnnotations_Flags.ActiTimeDataProviderFlag')
+data.setCell(3, 3, 2980);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'invalidLoginMethod')
+data.setCell(4, 2, 'testNGAnnotations_Flags.ActiTimeDataProviderFlag')
+data.setCell(4, 3, 2980);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 31 ms</span>
+              <span class="suite-total-time">Total running time: 16 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -243,14 +346,6 @@ return data;
             <span class="header-content">Reporter output for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">validLoginMethod</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">onTestStart</span>
-                <span class="reporter-method-output">onTestFailure</span>
-                <span class="reporter-method-output">Method Falied ScreenShot Taken :validLoginMethod</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
@@ -266,21 +361,29 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">listenerPackage.ValidLogin</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
+              <div class="chronological-class-name">testNGAnnotations_Flags.ActiTimeDataProviderFlag</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">validLoginMethod</span>
-                <span class="method-start">1604 ms</span>
+                <span class="method-name">invalidLoginMethod(ad_min, mana_ger)</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">1857 ms</span>
-              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginMethod(ad123, mana123)</span>
+                <span class="method-start">4451 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginMethod(456min, 456ger)</span>
+                <span class="method-start">7504 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginMethod(min, add)</span>
+                <span class="method-start">10484 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginMethod(manager, admin)</span>
+                <span class="method-start">13464 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
